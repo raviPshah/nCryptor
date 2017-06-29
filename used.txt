@@ -1,0 +1,10 @@
+for encryption&decryption - md5
+MD5 (Message-Digest algorithm 5) is a well-known cryptographic hash function with a 128-bit 
+resulting hash value. MD5 is widely used in security-related applications, and is also frequently used to check the integrity of files.
+
+for compress&decompress - 
+zlib.deflate (compression) and zlib.inflate (decompression) are implementations of the compression methods described in 
+RFC 1951. The deflate filter takes up to three parameters passed as an associative array. 
+level describes the compression strength to use (1-9). Higher numbers will generally yield smaller payloads at 
+the cost of additional processing time. Two special compression levels also exist: 0 (for no compression at all), and -1 
+(zlib internal default -- currently 6).
